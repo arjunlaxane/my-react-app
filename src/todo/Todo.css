@@ -1,0 +1,93 @@
+.main-div {
+  background-color: rgb(18, 2, 32);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.child-div {
+  width: 30%;
+  position: relative;
+  top: 10vmax;
+}
+figure > img {
+  width: 10%;
+  height: 10%;
+  margin-bottom: 1vmax;
+}
+.form-control {
+  width: 90%;
+  height: 2.2vmax;
+  background-color: white;
+  border-radius: 0.5vmax;
+  font-size: 1.5vmax;
+  padding: 1vmax;
+  padding-left: 1vmax;
+}
+figcaption {
+  color: rgb(238, 232, 232);
+}
+figure {
+  padding: 1vmax;
+  text-align: center;
+}
+
+.addItems {
+  text-align: center;
+}
+.plus {
+  position: relative;
+  left: 12vmax;
+  bottom: 3vmax;
+  font-size: 2vmax;
+  cursor: pointer;
+}
+
+.plus:hover {
+  color: rgb(38, 102, 197);
+}
+
+.plus:active {
+  color: rgb(128, 30, 0);
+}
+.showItems {
+  text-align: center;
+}
+.btn {
+  width: 10vmax;
+  height: 4vmax;
+  padding: 1vmax;
+  cursor: pointer;
+  border-radius: 1vmax;
+  font-size: 1.4vmax;
+  margin-top: 2vmax;
+}
+.btn:hover {
+  background-color: antiquewhite;
+}
+.btn:active {
+  background-color: green;
+}
+.showItem {
+  text-align: center;
+  display: flex;
+  background-color: aqua;
+  padding: 1vmax;
+  height: 1.2vmax;
+  align-items: flex-end;
+}
+
+.showItem > h3 {
+  position: relative;
+  top: 1.3vmax;
+}
+
+.icon {
+  position: relative;
+  top: 3.2vmax;
+  left: 6vmax;
+}
+.trash {
+  margin-left: 1.3vmax;
+}
